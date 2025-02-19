@@ -3,7 +3,7 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "aws_iam_role" {
+variable "aws_iam_role_glue" {
   description = "Nombre del rol de ETL"
-  type        = string  
+  sensitive = true
 }

@@ -4,9 +4,9 @@ provider "aws" {
 
 resource "aws_glue_job" "etl_process" {
   name     = "example"
-  role_arn = var.aws_iam_role
+  role_arn = var.aws_iam_role_glue
 
   command {
-    script_location = "s3://${aws_s3_bucket.example.bucket}/example.py"
+    script_location = "s3://${var.bucket_name}/example.py"
   }
 }
