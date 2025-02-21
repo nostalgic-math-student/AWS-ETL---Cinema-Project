@@ -40,6 +40,7 @@ _**Note: A multipurpose S3 Bucket is used for backup,logging and temporary data 
 
 - Athena's query latency can be slower compared to other data manipulation tools, but as the solution proposed doesn't require high time precision between queries we choose this for the sake of modularity.
 - S3 instance can be a naive straightforward solution for logging, but this project is intended as a demo solution and preferably a much more developed pipeline would choose **CloudTrail Logs** as preferred logging.
+- AWS Jobs can get faster and thus cheaper with a proper implementation. This demo serves as a schematic and not as a final solution as this step can be further optimized.
 
 ## Cost breakdown
 
