@@ -1,6 +1,4 @@
-# Xideral-IntegratorProject
-### Pitch PPT 
-https://www.canva.com/design/DAGfuvNV7fQ/gYF8P0ALwmMXaTYGCEHugw/edit?utm_content=DAGfuvNV7fQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+# AWS ETL Cinema Project
 
 ![DiagramIntegrator](https://github.com/user-attachments/assets/bf96519b-34fc-45a0-a375-6a117f47e198)
 
